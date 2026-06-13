@@ -38,20 +38,12 @@ fn main() {
 =======
 mod variables;
 mod functions;
-mod loops;
-mod ownership;
-mod borrowing;
-mod structs;
-mod enums;
-mod vectors;
-mod strings;
-mod option_result;
-mod practice;
+mod control_flow;
 
 fn main() {
     println!("Rust Beginner Basics Repository");
     
     variables::run();
-    structs::run();
+    
 }
 >>>>>>> 0e0d91eef73e7c2b038ad461526160c19ed072b1
